@@ -1,11 +1,5 @@
-<!-- everything in here has to be wrapped in a tag: it could be a p tag, div, whatever, but it has to be wrapped in something -->
-
-<div ng-app="myApp" ng-controller="formCtrl">
-    <!-- this is going to correspond to whatever the word in {{ }} is in the app.component.ts... basically props in React -->
-    <h1>{{ title }}: {{ name }}</h1>     
-    <p>my favorite food is: {{ food }}</p>
-    <p>my current hobby is is: {{ hobby }}</p>
-    <p>my pet is: {{ petName }}</p>
-    <p>my pet is is a: {{ pet }}</p>
-    <p>my pet likes to: {{ petHobby }}</p>
+<!-- you have to have a tag wrapped around all your content  -->
+<div>
+    <!-- importing component and displaying it on the app -->
+    <app-form></app-form>
 </div>
