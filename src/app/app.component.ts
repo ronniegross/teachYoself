@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'teachYoselfSubmit';
+  title = 'About me';
+  name = 'Ronnie';
+  hobby = 'Knitting';
+  pet = 'cat';
+  petName = 'Rigby';
+  petHobby = 'chew chords'
+  food = 'Potato';
 }
